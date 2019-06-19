@@ -93,7 +93,11 @@ _注：Node 版本要求 Vue CLI 需要 Node.js 8.9 或更高版本 (推荐 8.11
 * 项目成功运行, 可以看到如下的页面效果
 
 ![page-show](https://github.com/xcjiu/vue-admin-elementui/blob/master/note_images/localhost8080.png)
-	
-### 项目的创建工作就是这样了，接下来正式进入项目的开发工作 下一节：link项目需求分析
+
+***
+### 项目的创建工作就是这样了，接下来正式进入项目的开发工作 
+### 下一节：[项目需求分析](https://github.com/xcjiu/vue-admin-elementui/wiki/项目需求分析)
+
+### 上一节：[开发环境部署](https://github.com/xcjiu/vue-admin-elementui/wiki/开发环境部署)
 	
 ### [回导航](https://github.com/xcjiu/vue-admin-elementui/wiki/Home)
