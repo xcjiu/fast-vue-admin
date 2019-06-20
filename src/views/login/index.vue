@@ -86,8 +86,11 @@
 			}
 		},
 		watch: {
-			$route: {
+			$route: { //监听路由变化
 				handler: function(route) {
+					//route.query 是个对象，一个 key/value 表示URL查询参数, 如果没有查询参数则是个空对象
+					//表示查询对象不为空，并且包含了 redirect 查询参数 然后取route.query.redirect 的值 
+					//没有这个参数存在时则为 undefined
 					this.redirect = route.query && route.query.redirect
 				},
 				immediate: true // 该回调将会在侦听开始之后被立即调用
